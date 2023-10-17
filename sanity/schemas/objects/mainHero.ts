@@ -2,7 +2,7 @@ import { TextHOne } from 'phosphor-react'
 import { defineField, defineType } from 'sanity'
 
 export default defineType({
-  name: 'MainHero',
+  name: 'MainHero', // <--- Make sure when you reference MainHero elsewhere, follow this casing!
   title: 'Main Hero',
   type: 'object',
   icon: TextHOne,

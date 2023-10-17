@@ -2,7 +2,7 @@ import { TextT } from 'phosphor-react'
 import { defineField, defineType } from 'sanity'
 
 export default defineType({
-  name: 'FeaturedText',
+  name: 'FeaturedText', // <--- match casing
   title: 'Featured Text',
   type: 'object',
   icon: TextT,
